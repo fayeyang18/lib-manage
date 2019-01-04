@@ -1,0 +1,62 @@
+@import '~antd/dist/antd.css';
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.wmenu {
+    padding-left: 20px;
+    padding-top: 10px;
+    height: 660px;
+    /* box-shadow: 1px 1px 5px 2px #ccc; */
+}
+
+.header {
+    background-color: #fff;
+    width: 239px;
+    border-right: 1px gray;
+}
+
+.logo_container {
+    /* background-color: #00a6aa; */
+    width: 240px;
+    height: 117px;
+}
+
+.logo {
+    height: 117px;
+    width: 407px;
+    transform: scale(0.5);
+    float: left;
+    background: url("../assets/logo.png") no-repeat;
+    margin-left: -100px;
+}
+
+.home {
+    width: 1030px;
+    /* height: 610px; */
+    /* overflow: hidden; */
+    background-color: #fff;
+    position: absolute;
+    left: 240px;
+    top: 0;
+    /* margin-left: 250px;
+    margin-top: 130px; */
+}
+
+.home1 {
+    width: 1030px;
+    height: 650px;
+    /* overflow: hidden; */
+    background-color: #fff;
+    position: absolute;
+    left: 240px;
+    /* top: -200px; */
+    /* margin-left: 250px;
+    margin-top: 130px; */
+}
+
+.button1 {
+    width: 80px;
+}

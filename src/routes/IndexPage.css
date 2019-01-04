@@ -1,0 +1,42 @@
+@import '~antd/dist/antd.css';
+.center {
+    width: 320px;
+    margin: 150px auto;
+    padding: 40px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.08);
+}
+
+
+/* .login_form {
+    width: 300px;
+} */
+
+.login_form_forgot {
+    float: right;
+}
+
+.login_form_button {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+    align-items: center;
+}
+
+.logo img {
+    width: 36px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-weight: 700;
+    color: #1890ff;
+    background-image: -webkit-gradient( linear, 37.219838% 34.532506%, 36.425669% 93.178216%, from(#29cdff), to(#0a60ff), color-stop(0.37, #148eff));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
